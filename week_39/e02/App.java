@@ -1,8 +1,3 @@
-public class PrintBlank {
-}
-
-
-
 public class App {
 	public static String printBlank(int blank_space) {
 		int n = blank_space;
