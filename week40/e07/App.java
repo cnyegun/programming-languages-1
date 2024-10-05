@@ -21,6 +21,7 @@ public class App {
             }
             valid = hasDigit && lowerCase && upperCase;
         } 
+        System.out.println("Password is valid");
         scanner.close();
     }
 }
