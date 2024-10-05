@@ -10,6 +10,7 @@ public class App {
         else {
             System.out.println(s + " is not a palindrome");
         }
+        scanner.close();
     }
     public static String reverseString(String s) {
         String rString = "";
