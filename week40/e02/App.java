@@ -5,10 +5,9 @@ public class App {
         System.out.print("Enter a name: ");
         String name = scanner.nextLine();
         System.out.println("You entered: " + name);
-        for (int i = name.length(); i > 0; i--) {
-            System.out.println(name.charAt(i - 1));
+        for (int i = 0; i < name.length(); i++) {
+            System.out.println(name.charAt(i));
         }
         scanner.close();
     }
 }
-

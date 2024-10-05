@@ -2,13 +2,14 @@ import java.util.*;
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a name: ");
+        System.out.print("Enter your name: ");
         String name = scanner.nextLine();
-        System.out.println("You entered: " + name);
-        for (int i = 0; i < name.length(); i++) {
-            System.out.println(name.charAt(i));
+        if (name.equals("Louis")) {
+            System.out.println("Are you French?");
+        }
+        else {
+            System.out.println("You have a great name!");
         }
         scanner.close();
     }
 }
-
