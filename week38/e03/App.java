@@ -8,7 +8,7 @@ public class App {
         int age = scanner.nextInt();
         System.out.println("Is this the weekend? (true or false):");
         boolean isWeekend = scanner.nextBoolean();
-        if (!isWeekend && (age < 18 || age > 65)) {
+        if (!isWeekend&& (age < 18 || age > 65)) {
             System.out.println("You will have a discount!");
         }
         else {
